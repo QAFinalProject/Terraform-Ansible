@@ -25,7 +25,7 @@ Modified from Leon Robinson's repo (https://github.com/Crush-Steelpunch/Minikube
 
 ## Step 3 - Install docker to both VM's.
 
-- cd /tmp/petclinic-setup/ansible/
+- cd /tmp/petclinic-setup/ansible
 - ansible-playbook docker-install.yaml
 - sudo reboot (reboots VM's to run docker commands)
 
