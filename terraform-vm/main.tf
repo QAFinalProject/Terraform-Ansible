@@ -22,7 +22,7 @@ variable "micro"  {
 // Local Variables
 
 locals {
-  imageid      = "ami-0bd2099338bc55e6d"
+  imageid      = "ami-07b63aa1cfd3bc3a5"
 }
 
 
