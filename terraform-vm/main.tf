@@ -149,7 +149,7 @@ packages:
   - software-properties-common
   - ansible
 runcmd:
-  - git clone https://github.com/Jamalh8/petclinic-setup.git /tmp/petclinic-setup
+  - git clone https://github.com/QAFinalProject/Terraform-Ansible.git /tmp/petclinic-setup
 
 
 EOF
@@ -177,7 +177,7 @@ packages:
   - software-properties-common
   - ansible
 runcmd:
-  - git clone https://github.com/Jamalh8/petclinic-setup.git /tmp/petclinic-setup
+  - git clone https://github.com/QAFinalProject/Terraform-Ansible.git /tmp/petclinic-setup
 EOF
 
   root_block_device {
@@ -203,7 +203,7 @@ packages:
   - software-properties-common
   - ansible
 runcmd:
-  - git clone https://github.com/Jamalh8/petclinic-setup.git /tmp/petclinic-setup
+  - git clone https://github.com/QAFinalProject/Terraform-Ansible.git /tmp/petclinic-setup
 EOF
 
   root_block_device {
