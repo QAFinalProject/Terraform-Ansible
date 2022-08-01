@@ -19,6 +19,10 @@ variable "micro"  {
   default = "t2.micro"
 }
 
+variable "medium"  {
+  default = "t2.medium"
+}
+
 // Local Variables
 
 locals {
@@ -133,7 +137,7 @@ resource "aws_security_group" "dev" {
 
 resource "aws_instance" "dev" {
   ami                    = local.imageid
-  instance_type          = var.small
+  instance_type          = var.medium
   key_name               = var.sshkeypairname
   vpc_security_group_ids = [aws_security_group.dev.id]
   user_data              = <<EOF
