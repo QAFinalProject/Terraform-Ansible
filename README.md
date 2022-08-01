@@ -27,7 +27,7 @@ Modified from Leon Robinson's repo (https://github.com/Crush-Steelpunch/Minikube
 
 - cd /tmp/petclinic-setup/ansible
 - ansible-playbook docker-install.yaml
-- sudo reboot (reboots VM's to run docker commands)
+- sudo reboot (reboots VM's to run docker commands) - IF INSTALLING JENKINS DO SUDO REBOOT AFTER JENKINS INSTALL - AS IT'S IN TMP FILE IT'LL DISSAPPEAR AFTER REBOOT
 
 ## Step 4 - If installing Jenkins then
 
